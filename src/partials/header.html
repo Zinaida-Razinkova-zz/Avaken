@@ -1,0 +1,35 @@
+<header>
+  <div class="header-section">
+    <div class="header-block">
+      <a href="">
+        <svg class="header-logo" width="224" hight="32" aria-label="logo">
+          <use href="./images/sprite.svg#icon-logo-white"></use>
+        </svg>
+      </a>
+      <button
+        class="header-menu__button"
+        aria-controls="header-menu__container"
+        aria-expanded="false"
+        type="button"
+        data-menu-button
+      >
+        <svg width="22" height="22" aria-label="Mobile menu">
+          <use class="header-icon__close" href="./images/sprite.svg#icon-header-close"></use>
+          <use class="header-icon__burger" href="./images/sprite.svg#icon-header-burger"></use>
+        </svg>
+      </button>
+    </div>
+  </div>
+  <div class="header-menu__container" data-menu>
+    <nav>
+      <ul class="header-menu">
+        <li class="header-menu__list"><a class="header-menu__link" href="">Home</a></li>
+        <li class="header-menu__list"><a class="header-menu__link" href="">About</a></li>
+        <li class="header-menu__list"><a class="header-menu__link" href="">Services</a></li>
+        <li class="header-menu__list"><a class="header-menu__link" href="">News</a></li>
+        <li class="header-menu__list"><a class="header-menu__link" href="">Contacts</a></li>
+      </ul>
+    </nav>
+    <div class="header-menu__backdrop"></div>
+  </div>
+</header>

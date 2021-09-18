@@ -1,0 +1,150 @@
+.contacts-section {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+    padding: 56px 0px 72px 0px;
+  }
+}
+
+.contacts-img {
+  @media screen and (max-width: $mobile) {
+    width: 390px;
+    height: 292px;
+  }
+}
+
+.contacts-block {
+  background-color: $color_dark;
+  @media screen and (max-width: $mobile) {
+    width: 390px;
+    height: 603px;
+    margin-bottom: 24px;
+  }
+
+  @media screen and (min-width: $desktop) {
+    width: 620px;
+    height: 618px;
+  }
+}
+
+.contacts-form {
+  display: block;
+  margin: 32px 40px 40px 40px;
+
+  @media screen and (max-width: $mobile) {
+    margin: 0px 20px 0px 20px;
+  }
+}
+
+.contacts-form__title {
+  font-family: $font_basic;
+  font-weight: 600;
+  font-size: 36px;
+  line-height: 1.3;
+  color: $color_white;
+  margin: 0px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 20px;
+    padding-top: 23px;
+  }
+}
+
+.contacts-form__paragraf {
+  font-family: $font_details;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
+  color: $color_more_light;
+  margin: 16px 0px 24px 0px;
+
+  @media screen and (max-width: $mobile) {
+    margin: 8px 0px 20px 0px;
+  }
+}
+
+.contacts-form__block {
+  @media screen and (min-width: $desktop) {
+    display: flex;
+  }
+}
+
+.contacts-form__label {
+  font-family: $font_basic;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.6;
+  color: $color_white;
+}
+
+.contacts-form__input-name,
+.contacts-form__input-phone,
+.contacts-form__input-email,
+.contacts-form__input-message {
+  background: $color_input;
+  border-top: none;
+  border-right: none;
+  border-left: none;
+  border-bottom: 2px solid $color_accent;
+}
+
+.contacts-form__input-name,
+.contacts-form__input-phone {
+  width: 260px;
+  height: 47px;
+  margin: 0px 0px 24px 0px;
+
+  @media screen and (max-width: $mobile) {
+    width: 350px;
+    margin: 0px 0px 8px 0px;
+  }
+}
+
+.contacts-form__input-email {
+  width: 539px;
+  height: 47px;
+  margin: 0px 0px 24px 0px;
+
+  @media screen and (max-width: $mobile) {
+    width: 350px;
+    margin: 0px 0px 8px 0px;
+  }
+}
+
+.contacts-form__input-message {
+  width: 539px;
+  height: 118px;
+  margin: 0px 0px 40px 0px;
+  @media screen and (max-width: $mobile) {
+    width: 350px;
+    margin: 0px 0px 19px 0px;
+  }
+}
+
+.contacts-form__button {
+  font-family: $font_basic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $color_white;
+
+  width: 188px;
+  height: 47px;
+  background: $color_accent;
+  border: none;
+
+  @media screen and (max-width: $mobile) {
+    width: 153px;
+    height: 34px;
+    font-size: 12px;
+  }
+}
+
+.contacts-form__button-iconarrow {
+  width: 11px;
+  height: 10px;
+  margin-left: 10px;
+  fill: $color_white;
+}

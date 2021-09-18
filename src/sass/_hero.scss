@@ -1,0 +1,145 @@
+.hero-section {
+  display: flex;
+}
+
+.hero__img-desktop {
+  @media screen and (min-width: $desktop) {
+    width: 600px;
+    height: 708px;
+    margin: 40px 0px 0px 0px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    display: none;
+  }
+}
+
+.hero__img-mobile {
+  @media screen and (min-width: $desktop) {
+    display: none;
+  }
+
+  @media screen and (max-width: $mobile) {
+    width: 188px;
+    height: 319px;
+    margin: 15px 0px 0px 0px;
+  }
+}
+
+.hero-block__position-conteiner {
+  position: relative;
+}
+
+.hero-block__line {
+  background-color: $color_dark;
+  width: 54px;
+  height: 1px;
+  position: absolute;
+  transform: rotate(-90deg);
+  bottom: 32px;
+  right: 52px;
+  z-index: 1;
+  @media screen and (max-width: $mobile) {
+    width: 34px;
+    bottom: 22px;
+    right: 38px;
+  }
+}
+
+.hero-block__icon-arrow {
+  background: #f8f8f8;
+  width: 169px;
+  height: 70px;
+  border: 2px solid $color_dark;
+  position: absolute;
+  top: 678px;
+  right: 0px;
+
+  @media screen and (max-width: $mobile) {
+    width: 109px;
+    height: 50px;
+    top: 284px;
+    right: 0px;
+  }
+}
+
+.hero-block__icon-arrowleft,
+.hero-block__icon-arrowright {
+  width: 20px;
+  height: 18px;
+  @media screen and (max-width: $mobile) {
+    width: 14px;
+    height: 12px;
+  }
+}
+
+.hero-block__icon-arrowleft {
+  margin: 26px 0px 0px 32px;
+  @media screen and (max-width: $mobile) {
+    margin: 19px 0px 0px 20px;
+  }
+}
+
+.hero-block__icon-arrowright {
+  margin: 26px 0px 0px 65px;
+  @media screen and (max-width: $mobile) {
+    margin: 19px 0px 0px 30px;
+  }
+}
+.hero-content {
+  width: 500px;
+  margin: 198px 0px 0px 64px;
+
+  @media screen and (max-width: $mobile) {
+    width: 182px;
+    margin: 80px 0px 32px 20px;
+  }
+}
+
+.hero-content__title {
+  font-family: $font_basic;
+  font-weight: bold;
+  font-size: 90px;
+  line-height: 1.09;
+  color: $color_dark;
+
+  margin: 0px 0px 45px 0px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 30px;
+    line-height: 1.2;
+    margin: 0px 0px 32px 0px;
+  }
+}
+
+.hero-content__button {
+  font-family: $font_basic;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $color_white;
+
+  width: 167px;
+  height: 47px;
+  background: $color_accent;
+  border: none;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 12px;
+    width: 133px;
+    height: 34px;
+  }
+}
+
+.hero-content__button-iconarrow {
+  width: 11px;
+  height: 10px;
+  margin-left: 10px;
+  fill: $color_white;
+  @media screen and (max-width: $mobile) {
+    margin-left: 7px;
+  }
+}

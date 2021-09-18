@@ -1,0 +1,31 @@
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+a {
+  text-decoration: none;
+  color: #ffffff;
+}
+
+body {
+  font-family: #000000;
+  .container {
+    margin: auto;
+    width: 1439px;
+    padding: 0px 110px 0px 110px;
+    @media screen and (max-width: 425px) {
+      margin: auto;
+      width: 420px;
+      padding: 0px 15px 0px 15px;
+    }
+  }
+}
+ul {
+  list-style: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}

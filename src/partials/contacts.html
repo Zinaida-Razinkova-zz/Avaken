@@ -1,0 +1,64 @@
+<section class="container">
+  <div class="contacts-section">
+    <img
+      class="contacts-img"
+      srcset="./images/contacts@2x.jpg 2x"
+      src="./images/contacts.jpg"
+      alt="Contacts"
+      width="600"
+      height="618"
+    />
+    <div class="contacts-block">
+      <form class="contacts-form">
+        <p class="contacts-form__title">Write Me.</p>
+        <p class="contacts-form__paragraf">
+          Sit et vulputate posuere id diam ac eget lacinia enim. Id congue sapien libero sed.
+          Aliquet amet eget placerat facilisis leo, sit consequat.
+        </p>
+        <div class="contacts-form__block">
+          <div>
+            <label class="contacts-form__label">Full Name</label>
+            <input
+              class="contacts-form__input-name"
+              type="text"
+              name="name"
+              pattern="^[a-zA-Zа-яА-Я]+(([' -][a-zA-Zа-яА-Я ])?[a-zA-Zа-яА-Я]*)*$"
+              title="The name can only consist of letters, apostrophes, dashes and spaces. For example Adrian, Jacob Mercer, Charles de Batz de Castelmore d'Artagnan, etc required"
+            />
+          </div>
+          <div>
+            <label class="contacts-form__label">Phone</label>
+            <input
+              class="contacts-form__input-phone"
+              type="tel"
+              name="tel"
+              pattern="(\+?( |-|\.)?\d{1,2}( |-|\.)?)?(\(?\d{3}\)?|\d{3})( |-|\.)?(\d{3}( |-|\.)?\d{4})"
+              title="Phone number must be 11-12 digits long and can contain numbers, spaces, dashes, pot-bellied brackets and can start with +"
+              required
+            />
+          </div>
+        </div>
+        <div>
+          <label class="contacts-form__label">Email Address</label>
+          <input
+            class="contacts-form__input-email"
+            type="text"
+            name="email"
+            title="Enter your email "
+            required
+          />
+        </div>
+        <div>
+          <label class="contacts-form__label">Message</label>
+          <input class="contacts-form__input-message" type="text" name="text" />
+        </div>
+        <button class="contacts-form__button">
+          Send message
+          <svg class="contacts-form__button-iconarrow" width="11">
+            <use href="./images/sprite.svg#icon-arrow-right"></use>
+          </svg>
+        </button>
+      </form>
+    </div>
+  </div>
+</section>
