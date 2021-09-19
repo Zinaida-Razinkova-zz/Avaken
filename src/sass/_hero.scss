@@ -2,7 +2,7 @@
   display: flex;
 }
 
-.hero__img-desktop {
+.hero-img__desktop {
   @media screen and (min-width: $desktop) {
     width: 600px;
     height: 708px;
@@ -14,7 +14,7 @@
   }
 }
 
-.hero__img-mobile {
+.hero-img__mobile {
   @media screen and (min-width: $desktop) {
     display: none;
   }
@@ -26,11 +26,11 @@
   }
 }
 
-.hero-block__position-conteiner {
+.hero-block {
   position: relative;
 }
 
-.hero-block__line {
+.hero-container__line {
   background-color: $color_dark;
   width: 54px;
   height: 1px;
@@ -46,7 +46,7 @@
   }
 }
 
-.hero-block__icon-arrow {
+.hero-container {
   background: #f8f8f8;
   width: 169px;
   height: 70px;
@@ -91,37 +91,8 @@
   }
 }
 
-.hero-content__button {
-  font-family: $font_basic;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 14px;
-  line-height: 1.2;
-  text-align: center;
-  letter-spacing: 1px;
-  text-transform: uppercase;
-  color: $color_white;
-
-  width: 167px;
-  height: 47px;
-  background: $color_accent;
-  border: none;
-
-  @media screen and (max-width: $mobile) {
-    font-size: 12px;
-    width: 133px;
-    height: 34px;
-  }
-}
-
 .hero-content__button-iconarrow {
-  width: 11px;
-  height: 10px;
-  margin-left: 10px;
   fill: $color_white;
-  @media screen and (max-width: $mobile) {
-    margin-left: 7px;
-  }
 }
 
 .swiper {

@@ -8,12 +8,18 @@ a {
 }
 
 body {
-  font-family: #000000;
+  @media screen and (min-width: $desktop) {
+    padding-top: 118px;
+  }
+
+  @media screen and (max-width: $mobile) {
+    padding-top: 60px;
+  }
   .container {
     margin: auto;
     width: 1439px;
     padding: 0px 110px 0px 110px;
-    @media screen and (max-width: 425px) {
+    @media screen and (max-width: $mobile) {
       margin: auto;
       width: 420px;
       padding: 0px 15px 0px 15px;
@@ -30,4 +36,110 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+.button {
+  background: $color_accent;
+  border: none;
+}
+
+.hero-button__form {
+  width: 167px;
+  height: 47px;
+  @media screen and (max-width: $mobile) {
+    width: 133px;
+    height: 34px;
+  }
+}
+
+.button-text {
+  font-family: $font_basic;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $color_white;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 12px;
+  }
+}
+
+.contacts-button__form {
+  width: 188px;
+  height: 47px;
+  @media screen and (max-width: $mobile) {
+    width: 153px;
+    height: 34px;
+  }
+}
+
+.content-title__text {
+  font-family: $font_basic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 50px;
+  line-height: 1.3;
+  color: $color_dark;
+
+  margin: 0px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 24px;
+  }
+}
+
+.section__title--text {
+  font-family: $font_basic;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 20px;
+  line-height: 1.3;
+  letter-spacing: 0.4em;
+  text-transform: uppercase;
+  color: $color_accent;
+  position: relative;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 10px;
+    line-height: 1;
+  }
+}
+
+.content__subparagraf--text {
+  font-family: $font_basic;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1.2;
+  text-align: center;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  color: $color_dark;
+
+  margin: 0px;
+
+  @media screen and (max-width: $mobile) {
+    font-size: 12px;
+  }
+}
+
+.content--iconarrow {
+  width: 11px;
+  height: 10px;
+  margin-left: 10px;
+  @media screen and (max-width: $mobile) {
+    margin-left: 6px;
+  }
+}
+
+.paragraf--text {
+  font-family: $font_details;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 1.5;
 }

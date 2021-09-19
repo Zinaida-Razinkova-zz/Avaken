@@ -1,62 +1,61 @@
 <section class="container">
   <div class="hero-section">
-    <div class="hero-block__position-conteiner swiper">
-      <div class="swiper">
-        <div class="swiper-wrapper">
-          <div class="swiper-slide">
-            <img
-              class="hero__img-desktop"
-              srcset="./images/hero@2x.jpg 2x"
-              src="./images/hero.jpg"
-              alt="Hero images"
-              width="600"
-              height="708"
-            />
-            <img
-              class="hero__img-mobile"
-              srcset="./images/hero-mobile@2x.jpg 2x"
-              src="./images/hero-mobile.jpg"
-              alt="Hero images"
-              width="188"
-              height="319"
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="hero__img-desktop"
-              src="./images/hero1.jpg"
-              alt="Hero images"
-              width="600"
-              height="708"
-            />
-            <img
-              class="hero__img-mobile"
-              src="./images/hero-mobile1.jpg"
-              alt="Hero images"
-              width="188"
-              height="319"
-            />
-          </div>
-          <div class="swiper-slide">
-            <img
-              class="hero__img-desktop"
-              src="./images/hero2.jpg"
-              alt="Hero images"
-              width="600"
-              height="708"
-            />
-            <img
-              class="hero__img-mobile"
-              src="./images/hero-mobile2.jpg"
-              alt="Hero images"
-              width="188"
-              height="319"
-            />
-          </div>
+    <div class="hero-block swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img
+            class="hero-img__desktop"
+            srcset="./images/hero@2x.jpg 2x"
+            src="./images/hero.jpg"
+            alt="Hero images"
+            width="600"
+            height="708"
+          />
+          <img
+            class="hero-img__mobile"
+            srcset="./images/hero-mobile@2x.jpg 2x"
+            src="./images/hero-mobile.jpg"
+            alt="Hero images"
+            width="188"
+            height="319"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="hero-img__desktop"
+            src="./images/hero1.jpg"
+            alt="Hero images"
+            width="600"
+            height="708"
+          />
+          <img
+            class="hero-img__mobile"
+            src="./images/hero-mobile1.jpg"
+            alt="Hero images"
+            width="188"
+            height="319"
+          />
+        </div>
+        <div class="swiper-slide">
+          <img
+            class="hero-img__desktop"
+            src="./images/hero2.jpg"
+            alt="Hero images"
+            width="600"
+            height="708"
+          />
+          <img
+            class="hero-img__mobile"
+            src="./images/hero-mobile2.jpg"
+            alt="Hero images"
+            width="188"
+            height="319"
+          />
         </div>
       </div>
-      <div class="hero-block__line"></div>
-      <div class="hero-block__icon-arrow">
+
+      <div class="hero-container">
+        <div class="hero-container__line"></div>
         <svg class="swiper-button-prev" width="11">
           <use href="./images/sprite.svg#icon-arrow-left"></use>
         </svg>
@@ -68,9 +67,9 @@
 
     <div class="hero-content">
       <h1 class="hero-content__title">Let’s build something great!</h1>
-      <button class="hero-content__button">
+      <button class="button button-text hero-button__form">
         Learn More
-        <svg class="hero-content__button-iconarrow" width="11">
+        <svg class="hero-content__button-iconarrow content--iconarrow" width="11">
           <use href="./images/sprite.svg#icon-arrow-right"></use>
         </svg>
       </button>

@@ -13,7 +13,6 @@
   }
   @media screen and (max-width: $mobile) {
     height: 60px;
-    left: 0px;
     padding: 0px 15px 0px 15px;
     z-index: 9;
   }
@@ -93,7 +92,7 @@
 
 //Mobile menu
 .header-menu__button {
-  display: inline-flex;
+  // display: inline-flex;
   padding: 0px;
   border: none;
   background-color: transparent;
@@ -104,16 +103,16 @@
     display: none;
   }
 
-  .header-icon__close {
+  .header-menu__icon-close {
     display: none;
   }
 }
 
-.header-menu__button.is-open .header-icon__close {
+.header-menu__button.header-menu__open .header-menu__icon-close {
   display: block;
   fill: $color_white;
 }
-.header-menu__button.is-open .header-icon__close.active {
+.header-menu__button.header-menu__open .header-menu__icon-close.active {
   fill: $color_dark;
 }
 
@@ -121,15 +120,15 @@
   fill: $color_white;
 }
 
-.header-menu__button.is-open .header-icon__burger {
+.header-menu__button.header-menu__open .header-menu__icon-burger {
   display: none;
 }
 
-.header-menu__button .header-icon__burger.active {
+.header-menu__button .header-menu__icon-burger.active {
   fill: $color_dark;
 }
 
-.header-menu__container {
+.header-container {
   @media screen and (max-width: $mobile) {
     display: none;
     position: absolute;
@@ -142,7 +141,7 @@
     box-shadow: 0px 15px 20px -7px rgba(0, 0, 0, 0.2);
     z-index: 7;
 
-    &.is-open {
+    &.header-menu__open {
       display: block;
       .header-menu__link {
         color: $color_dark;
@@ -179,7 +178,7 @@
   }
 }
 
-body.show-backdrop .header-menu__backdrop {
+body.header-menu__backdrop-show .header-menu__backdrop {
   opacity: 0.1;
   visibility: visible;
   pointer-events: initial;

@@ -2,13 +2,11 @@ let header = document.querySelector('.header-section');
 let colorMenu = document.querySelector('.header-menu');
 let colorList = document.querySelector('.header-menu__link');
 let logo = document.querySelector('.header-logo');
-let closeButton = document.querySelector('.header-icon__close');
-let burgerButton = document.querySelector('.header-icon__burger');
-// console.log(header);
+let closeButton = document.querySelector('.header-menu__icon-close');
+let burgerButton = document.querySelector('.header-menu__icon-burger');
 
 const headerHeight = header.offsetHeight;
-// console.log(headerHeight);
-document.body.style.paddingTop = `${headerHeight}px`;
+// document.body.style.paddingTop = `${headerHeight}px`;
 
 window.addEventListener('scroll', () => {
   if (window.scrollY > headerHeight) {
