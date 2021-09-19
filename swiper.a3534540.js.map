@@ -1,0 +1,1 @@
+{"version":3,"sources":["js/swiper.js"],"names":["Swiper","navigation","nextEl","prevEl"],"mappings":";AAAA,IAAIA,OAAO,UAAW,CACpBC,WAAY,CACVC,OAAQ,uBACRC,OAAQ","file":"swiper.a3534540.js","sourceRoot":"../src","sourcesContent":["new Swiper('.swiper', {\n  navigation: {\n    nextEl: '.swiper-button-prev ',\n    prevEl: '.swiper-button-next',\n  },\n});\n"]}
