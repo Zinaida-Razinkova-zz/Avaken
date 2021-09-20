@@ -11,6 +11,8 @@
 
 - Adaptive layout. Breakpoints 420px & 1439px.
 - Сross-browser layout.
+- SASS.
+- Methodology BEM.
 - JS Sticky header.
 - JS Slider (swiper).
-- JS Burger menu .
+- JS Burger menu.
