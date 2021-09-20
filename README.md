@@ -16,7 +16,3 @@
 - JS Sticky header.
 - JS Slider (swiper).
 - JS Burger menu.
-
-## Site:
-
-- [zinaida-razinkova.github.io/avaken/](zinaida-razinkova.github.io/avaken/)
