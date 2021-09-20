@@ -19,4 +19,4 @@
 
 ## Site:
 
-- [https://zinaida-razinkova.github.io/avaken/](https://zinaida-razinkova.github.io/avaken/)
+- [https://github.com/Zinaida-Razinkova/Avaken](https://github.com/Zinaida-Razinkova/Avaken)
