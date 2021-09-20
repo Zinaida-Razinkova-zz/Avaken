@@ -6,3 +6,11 @@
   load.
 - To open the project in development mode, enter the command "npm run dev" in the terminal. In the
   tab browser, go to [http://localhost:1234](http://localhost:1234).
+
+## Technologies:
+
+- Adaptive layout. Breakpoints 420px & 1439px.
+- Сross-browser layout.
+- JS Sticky header.
+- JS Slider (swiper).
+- JS Burger menu .
