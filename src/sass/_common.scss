@@ -1,13 +1,3 @@
-::-webkit-input-placeholder {
-  opacity: 1;
-}
-::-moz-placeholder {
-  opacity: 1;
-}
-:-ms-input-placeholder {
-  opacity: 1;
-}
-
 html {
   box-sizing: border-box;
   scroll-behavior: smooth;
@@ -45,6 +35,11 @@ img {
   display: block;
   max-width: 100%;
   height: auto;
+}
+
+svg {
+  height: 100%;
+  width: 100%;
 }
 
 .button {
