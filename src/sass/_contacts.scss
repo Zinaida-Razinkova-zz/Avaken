@@ -28,7 +28,7 @@
 .contacts-block {
   background-color: $color_dark;
   @media screen and (max-width: $mobile) {
-    width: 390px;
+    max-width: 390px;
     height: 603px;
     margin-bottom: 24px;
   }

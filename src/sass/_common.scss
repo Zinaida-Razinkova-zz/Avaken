@@ -16,18 +16,17 @@ body {
     padding-top: 60px;
   }
   .container {
-    margin: auto;
-    width: 1439px;
-    padding: 0px 110px 0px 110px;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 1439px;
+    padding: 0px 110px;
     @media screen and (max-width: $mobile) {
-      margin: auto;
-      width: 420px;
+      max-width: 420px;
       padding: 0px 15px 0px 15px;
     }
   }
 }
-ul,
-ol,
+
 li {
   list-style: none;
 }
