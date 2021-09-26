@@ -1,12 +1,22 @@
-.hero-section {
+.hero-section{
+padding-top: 40px;
+@media screen and (max-width: $mobile) {
+  padding-top: 15px;
+}
+}
+
+.hero-body {
   display: flex;
+}
+
+.hero-img {
+  position: relative;
 }
 
 .hero-img__desktop {
   @media screen and (min-width: $desktop) {
-    width: 600px;
-    height: 708px;
-    margin: 40px 0px 0px 0px;
+    max-width: 600px;
+    max-height: 703;
   }
 
   @media screen and (max-width: $mobile) {
@@ -20,17 +30,14 @@
   }
 
   @media screen and (max-width: $mobile) {
-    width: 188px;
-    height: 319px;
-    margin: 15px 0px 0px 0px;
+    max-width: 188px;
+    max-height: 319px;
   }
 }
 
-.hero-block {
-  position: relative;
-}
 
-.hero-container__line {
+
+.hero-box__line {
   background-color: $color_dark;
   width: 54px;
   height: 1px;
@@ -46,7 +53,10 @@
   }
 }
 
-.hero-container {
+.hero-box {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
   background: #f8f8f8;
   width: 169px;
   height: 70px;
@@ -65,12 +75,21 @@
 }
 
 .hero-content {
-  width: 500px;
-  margin: 198px 0px 0px 64px;
+  margin: 0px 0px 0px 65px;
 
   @media screen and (max-width: $mobile) {
-    width: 182px;
-    margin: 80px 0px 32px 20px;
+    margin: 0px 0px 0px 20px;
+  }
+}
+
+.hero-content__wrapping{
+  max-width: 556px;
+  max-height: 300px;
+  margin:153px 0px 55px 0px;
+  @media screen and (max-width: $mobile) {
+    max-width: 182px;
+    max-height: 108px;
+    margin:65px 0px 32px 0px;
   }
 }
 
@@ -81,44 +100,47 @@
   font-size: 90px;
   line-height: 1.09;
   color: $color_dark;
-
-  margin: 0px 0px 45px 0px;
+  margin: 0px;
 
   @media screen and (max-width: $mobile) {
     font-size: 30px;
     line-height: 1.2;
-    margin: 0px 0px 32px 0px;
   }
 }
 
-.hero-content__button-iconarrow {
+.hero-button__iconarrow {
   fill: $color_white;
 }
 
 .swiper {
-  width: 598px;
-  height: 708px;
+  max-width: 598px;
+  max-height: 708px;
   margin: 0px;
 
   @media screen and (max-width: $mobile) {
-    width: 188px;
-    height: 319px;
+    max-width: 188px;
+    max-height: 319px;
   }
 }
 
-.swiper-button-prev {
-  margin-left: 20px;
-  width: 20px;
+.button-prev {
+  font-size: 20px;
+
+  &:hover {
+    color: $color_accent;
+}
   @media screen and (max-width: $mobile) {
-    margin-left: 10px;
-    width: 14px;
+    font-size: 14px;
   }
 }
-.swiper-button-next {
-  margin-right: 10px;
-  width: 20px;
+.button-next {
+  font-size: 20px;
+
+  &:hover {
+    color: $color_accent;
+}
   @media screen and (max-width: $mobile) {
-    margin-left: 20px;
-    width: 14px;
+    font-size: 14px;
   }
 }
+

@@ -1,9 +1,9 @@
 let header = document.querySelector('.header-section');
-let colorMenu = document.querySelector('.header-menu');
+let colorMenu = document.querySelector('.header-menu__list');
 let colorList = document.querySelector('.header-menu__link');
 let logo = document.querySelector('.header-logo');
-let closeButton = document.querySelector('.header-menu__icon-close');
-let burgerButton = document.querySelector('.header-menu__icon-burger');
+let closeButton = document.querySelector('.header-button__icon-close');
+let burgerButton = document.querySelector('.header-button__icon-burger');
 
 const headerHeight = header.offsetHeight;
 // document.body.style.paddingTop = `${headerHeight}px`;

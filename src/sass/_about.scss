@@ -1,15 +1,11 @@
-.about-section {
-  @media screen and (max-width: $mobile) {
-    padding: 50px 0px 0px 0px;
-  }
-}
 .about-section__title {
-  margin: 0px 0px 0px 50px;
+  margin: 0px 0px 0px 49px;
 }
 
 .about-content {
   @media screen and (min-width: $desktop) {
     display: flex;
+    margin-top: 10px;
   }
 }
 
@@ -26,21 +22,17 @@
 
 .about-content__title {
   @media screen and (min-width: $desktop) {
-    width: 600px;
-    height: auto;
     margin: 0px;
   }
 
   @media screen and (max-width: $mobile) {
-    width: 390px;
-    height: auto;
     margin: 8px 0px 16px 0px;
   }
 }
 
 .about-content__block {
   @media screen and (min-width: $desktop) {
-    width: 497px;
+    max-width: 497px;
     margin: 0px 0px 0px 123px;
   }
 }
@@ -48,14 +40,21 @@
 .about-content__paragraf {
   color: $color_medium;
   margin: 0px;
+
+}
+
+.content__subparagraf--link{
+  color: $color_dark;
+
+  &:hover {
+    color: $color_accent;
+}
 }
 
 .about-content__svg {
   display: flex;
-  margin: 24px 0px 0px 0px;
-  align-items: center;
-
+  margin: 10px 0px 0px 0px;
   @media screen and (max-width: $mobile) {
-    margin: 16px 0px 32px 0px;
+    margin: 16px 0px 0px 0px;
   }
 }
