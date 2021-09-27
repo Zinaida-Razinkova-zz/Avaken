@@ -59,6 +59,7 @@
     top: 48px;
     left: 787px;
     z-index: 10;
+  
 
     &.active {
       .header-menu__link {
@@ -79,7 +80,9 @@
 
 .header-menu__link{
   color: $color_white
-
+}
+.header-menu__link:hover{
+  color: $color_accent;
 }
 
 .header-menu__item {
