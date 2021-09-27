@@ -105,6 +105,12 @@
   border-right: none;
   border-left: none;
   border-bottom: 2px solid $color_accent;
+  font-family: $font_basic;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 1.6;
+  color: $color_white;
 }
 
 .contacts-form__input-name,
