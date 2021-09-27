@@ -9,7 +9,7 @@
 
 ## Technologies:
 
-- Adaptive layout. Breakpoints 420px & 1439px.
+- Adaptive layout.
 - Сross-browser layout.
 - SASS.
 - Methodology BEM.
